@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- SEO -->
+  <title>НазваниеСервиса | НазваниеСтраницы</title>
+  <meta name="description" content="Краткое описание страницы">
+  <meta name="keywords" content="объявления, LEGO, коллекционные товары">
+
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="НазваниеСтраницы">
+  <meta property="og:description" content="Описание для соцсетей">
+  <meta property="og:url" content="https://example.com/page.html">
+  <meta property="og:image" content="media-files/images/og-image.jpg">
+
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-icon"><img src="media-files/media-files/logo.png" alt="" class="img-logo"></span> CollectMarket
+    </a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item has-dropdown">
+          <a href="seller.html" class="nav-link">For Seller</a>
+          
+          <ul class="dropdown">
+            <li><a href="seller.html#advantages">Advantages</a></li>
+            <li><a href="seller-price.html">Paid Services</a></li>
+            <li><a href="seller.html#faq">FAQ</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-dropdown">
+          <a href="buyer.html" class="nav-link">For Buyer</a>
+          <ul class="dropdown">
+            <li><a href="buyer.html#advantages">Advantages</a></li>
+            <li><a href="buyer.html#faq">FAQ</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="contacts.html" class="nav-link">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="#" class="btn" data-type="publish" id="btn-publish">Publish</a>
+      <a href="#" class="btn" data-type="view" id="btn-view">View</a>
+    </div>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="badge">🏆 Платформа #1 для коллекционеров</span>
+      <h1>Найди или продай<br><span>то, что ценно</span></h1>
+      <p>Платформа объявлений для коллекционеров: LEGO, настольные игры, комиксы, фигурки и многое другое. Без посредников — напрямую между людьми.</p>
+      <div class="hero-actions">
+        <a href="#" class="btn" data-type="publish">Опубликовать объявление</a>
+        <a href="#" class="btn" data-type="view">Посмотреть товары</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="hero-stat-num">10 000+</div><div class="hero-stat-label">Объявлений</div></div>
+        <div><div class="hero-stat-num">5 000+</div><div class="hero-stat-label">Продавцов</div></div>
+        <div><div class="hero-stat-num">10</div><div class="hero-stat-label">Категорий</div></div>
+      </div>
+    </div>
+    <div class="hero-img-wrap" aria-hidden="true"><img src="media-files/media-files/images/nik-v8pL84kvTTc-unsplash.jpg" alt=""></div>
+  </div>
+</section>
+
+<!-- ===== О ПРОЕКТЕ ===== -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text">
+        <span class="badge">О нас</span>
+        <h2>Платформа для тех,<br>кто живёт коллекциями</h2>
+        <p>CollectMarket — это место, где энтузиасты и коллекционеры могут легко находить друг друга. Мы создали удобную площадку специально для нишевых и тематических товаров.</p>
+        <div class="about-points">
+          <div class="about-point">
+            <div class="about-point-icon">🎯</div>
+            <div class="about-point-text">
+              <h4>Целевая аудитория</h4>
+              <p>Коллекционеры, фанаты LEGO, любители настолок, читатели комиксов и все, кто ценит уникальные вещи.</p>
+            </div>
+          </div>
+          <div class="about-point">
+            <div class="about-point-icon">🚀</div>
+            <div class="about-point-text">
+              <h4>Цель платформы</h4>
+              <p>Соединять людей напрямую — без посредников, без лишних комиссий, без офтопа и нерелевантных товаров.</p>
+            </div>
+          </div>
+          <div class="about-point">
+            <div class="about-point-icon">⭐</div>
+            <div class="about-point-text">
+              <h4>Особенность</h4>
+              <p>Только коллекционные и тематические товары. Никакой мебели и бытовой техники — только то, что вам интересно.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual" aria-hidden="true"><img src="media-files/media-files/images/kelly-sikkema-Z9AU36chmQI-unsplash.jpg" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== КАТЕГОРИИ ===== -->
+<section class="section section-alt" id="categories">
+  <div class="container">
+    <h2 class="section-title">Категории товаров</h2>
+    <p class="section-sub">Найди именно то, что ищешь — в одной из 10 специализированных категорий</p>
+    <div class="categories-grid">
+      <div class="category-card">
+        <div class="cat-icon">🧱</div>
+        <h4>Конструкторы LEGO</h4>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">🎲</div>
+        <h4>Настольные игры</h4>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">📚</div>
+        <h4>Комиксы</h4>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">🏆</div>
+        <h4>Фигурки</h4>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">🎁</div>
+        <h4>Сувениры и мерч</h4>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">🃏</div>
+        <h4>Коллекционные карточки</h4>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">🤖</div>
+        <h4>Ретро-игрушки</h4>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">📦</div>
+        <h4>Аксессуары</h4>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">💎</div>
+        <h4>Лимитированные издания</h4>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">✨</div>
+        <h4>Сделано фанатами</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ПРЕИМУЩЕСТВА ===== -->
+<section class="section" id="advantages">
+  <div class="container">
+    <h2 class="section-title">Почему CollectMarket?</h2>
+    <p class="section-sub">Всё, что нужно коллекционеру — в одном месте</p>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon">🎯</div>
+        <h3>Только нишевые товары</h3>
+        <p>Никакого офтопа. Только коллекционные и тематические категории — найти нужное легко и быстро.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">💸</div>
+        <h3>Без посредников</h3>
+        <p>Покупка и продажа напрямую — без скрытых комиссий и переплат. Честная цена для обеих сторон.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔒</div>
+        <h3>Безопасность сделок</h3>
+        <p>Система отзывов и рейтингов помогает выбирать надёжных продавцов и покупателей.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3>Быстрая публикация</h3>
+        <p>Разместить объявление — 2–3 минуты. Интуитивная форма подскажет всё необходимое.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌍</div>
+        <h3>Сообщество единомышленников</h3>
+        <p>Тысячи коллекционеров, которые понимают ценность уникальных вещей так же, как и вы.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📱</div>
+        <h3>Удобно на любом устройстве</h3>
+        <p>Платформа адаптирована для компьютеров, планшетов и смартфонов.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Готов начать?</h2>
+    <p>Присоединяйся к тысячам коллекционеров — продавай ненужное, находи редкое.</p>
+    <div class="cta-actions">
+      <a href="#" class="btn-white" data-type="publish">Опубликовать объявление</a>
+      <a href="#" class="btn-outline" data-type="view">Найти товар</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ОТЗЫВЫ ===== -->
+<section class="section section-alt" id="reviews">
+  <div class="container">
+    <h2 class="section-title">Что говорят пользователи</h2>
+    <p class="section-sub">Реальные истории от наших продавцов и покупателей</p>
+    <div class="reviews-grid">
+      <article class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">«Продал редкий набор LEGO за два дня! Покупатель нашёлся сразу — видно, что аудитория здесь именно та, что нужно.»</p>
+        <div class="review-author">
+          <div class="review-avatar">👨</div>
+          <div>
+            <div class="review-name">Алексей К.</div>
+            <div class="review-role">Продавец LEGO-наборов</div>
+          </div>
+        </div>
+      </article>
+      <article class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">«Нашла комикс, который искала три года! Такого нет ни в одном магазине города. Платформа просто спасение для коллекционеров.»</p>
+        <div class="review-author">
+          <div class="review-avatar">👩</div>
+          <div>
+            <div class="review-name">Марина Д.</div>
+            <div class="review-role">Коллекционер комиксов</div>
+          </div>
+        </div>
+      </article>
+      <article class="review-card">
+        <div class="review-stars">★★★★☆</div>
+        <p class="review-text">«Отличная платформа для перепродажи. Интерфейс простой, объявление опубликовал за 3 минуты. Уже 12 продаж за месяц!»</p>
+        <div class="review-author">
+          <div class="review-avatar">🧔</div>
+          <div>
+            <div class="review-name">Дмитрий Н.</div>
+            <div class="review-role">Продавец фигурок</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo"><img src="media-files/media-files/logo.png" alt="" class="img-logo"> CollectMarket</a>
+      <p>Платформа объявлений для коллекционеров. Находи редкое, продавай ненужное — напрямую.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Продавцам</h4>
+      <ul>
+        <li><a href="seller.html">Разместить объявление</a></li>
+        <li><a href="seller.html#advantages">Преимущества</a></li>
+        <li><a href="seller-price.html">Платные услуги</a></li>
+        <li><a href="seller.html#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Покупателям</h4>
+      <ul>
+        <li><a href="buyer.html">Как покупать</a></li>
+        <li><a href="buyer.html#advantages">Преимущества</a></li>
+        <li><a href="buyer.html#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Компания</h4>
+      <ul>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="policy.html">Политика конфиденциальности</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2026 CollectMarket. Все права защищены.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+

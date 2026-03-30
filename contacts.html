@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CollectMarket — Контакты</title>
+  <meta name="description" content="Свяжитесь с командой CollectMarket. Электронная почта, часы работы, ссылки на социальные сети.">
+  <meta name="keywords" content="контакты, поддержка, CollectMarket">
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="CollectMarket — Контакты">
+  <meta property="og:description" content="Свяжитесь с нами — мы рады помочь.">
+  <meta property="og:url"         content="https://collectmarket.example.com/contacts.html">
+  <meta property="og:image"       content="media-files/images/og.jpg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-icon"><img src="media-files/media-files/logo.png" alt="" class="img-logo"></span> CollectMarket
+    </a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item has-dropdown">
+          <a href="seller.html" class="nav-link">For Seller</a>
+          <ul class="dropdown">
+            <li><a href="seller.html#advantages">Advantages</a></li>
+            <li><a href="seller-price.html">Paid Services</a></li>
+            <li><a href="seller.html#faq">FAQ</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-dropdown">
+          <a href="buyer.html" class="nav-link">For Buyer</a>
+          <ul class="dropdown">
+            <li><a href="buyer.html#advantages">Advantages</a></li>
+            <li><a href="buyer.html#faq">FAQ</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="contacts.html" class="nav-link">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="#" class="btn" data-type="publish" id="btn-publish">Publish</a>
+      <a href="#" class="btn" data-type="view" id="btn-view">View</a>
+    </div>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" style="padding: 60px 0;">
+  <div class="container">
+    <span class="badge">Контакты</span>
+    <h1>Мы <span>рады помочь</span></h1>
+    <p>Есть вопрос или предложение? Напишите нам — ответим в рабочее время.</p>
+  </div>
+</section>
+
+<!-- КОНТАКТЫ -->
+<section class="section" id="contacts">
+  <div class="container contacts-grid">
+
+    <!-- ФОРМА -->
+    <div class="contact-form-wrap">
+      <h2>Напишите нам</h2>
+      <form class="contact-form" action="#" method="POST" novalidate>
+        <div class="form-group">
+          <label for="name">Ваше имя</label>
+          <input type="text" id="name" name="name" placeholder="Иван Иванов" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="ivan@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" rows="5" placeholder="Ваш вопрос или предложение..." required></textarea>
+        </div>
+        <button type="submit" class="btn" data-type="publish" data-norewrite="true">Отправить сообщение</button>
+      </form>
+    </div>
+
+    <!-- КОНТАКТНАЯ ИНФОРМАЦИЯ -->
+    <div class="contact-info">
+      <h2>Контактная информация</h2>
+
+      <div class="contact-detail">
+        <div class="contact-detail-icon">📧</div>
+        <div>
+          <h4>Электронная почта</h4>
+          <p><a href="mailto:support@example.com">support@example.com</a></p>
+        </div>
+      </div>
+
+      <div class="contact-detail">
+        <div class="contact-detail-icon">🕐</div>
+        <div>
+          <h4>Часы работы</h4>
+          <p>Пн–Пт, с 9:00 до 18:00 (по местному времени)</p>
+        </div>
+      </div>
+
+      <!-- СОЦИАЛЬНЫЕ СЕТИ -->
+      <h4 style="font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--muted);margin-bottom:12px;">Социальные сети</h4>
+      <div class="socials">
+        <a href="https://instagram.com/example" class="social-link" aria-label="Instagram" target="_blank" rel="noopener"><img src="media-files/media-files/icons/brands/instagram.svg" alt=""></a>
+        <a href="https://facebook.com/example"  class="social-link" aria-label="Facebook"  target="_blank" rel="noopener"><img src="media-files/media-files/icons/brands/facebook.svg" alt=""></a>
+        <a href="https://t.me/example"          class="social-link" aria-label="Telegram"  target="_blank" rel="noopener"><img src="media-files/media-files/icons/brands/telegram.svg" alt=""></a>
+        <a href="https://x.com/example"         class="social-link" aria-label="X (Twitter)" target="_blank" rel="noopener"><img src="media-files/media-files/icons/brands/twitter.svg" alt=""></a>
+        <a href="https://linkedin.com/company/example" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener"><img src="media-files/media-files/icons/brands/linkedin-in.svg" alt=""></a>
+      </div>
+
+      <!-- КАРТА -->
+      <img src="media-files/media-files/map.png" alt="Карта расположения офиса CollectMarket" class="contact-map">
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo"><img src="media-files/media-files/logo.png" alt="" class="img-logo"> CollectMarket</a>
+      <p>Платформа объявлений для коллекционеров. Находи редкое, продавай ненужное — напрямую.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Продавцам</h4>
+      <ul>
+        <li><a href="seller.html">Разместить объявление</a></li>
+        <li><a href="seller.html#advantages">Преимущества</a></li>
+        <li><a href="seller-price.html">Платные услуги</a></li>
+        <li><a href="seller.html#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Покупателям</h4>
+      <ul>
+        <li><a href="buyer.html">Как покупать</a></li>
+        <li><a href="buyer.html#advantages">Преимущества</a></li>
+        <li><a href="buyer.html#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Компания</h4>
+      <ul>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="policy.html">Политика конфиденциальности</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2026 CollectMarket. Все права защищены.</p>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
